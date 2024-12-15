@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>くるくる寿司 - トップページ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tuika/tuika.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🍣 くるくる寿司</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#menu">メニュー</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1>「新鮮で楽しい、くるくる回る美味しさ」</h1>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>おすすめメニュー</h2>
+            <div class="menu-items">
+                <div class="menu-card">
+                    <img src="gazou/illustkun-00246-sushi.png" alt="まぐろ">
+                    <h3>まぐろ</h3>
+                    <p>二貫: ¥100</p>
+                </div>
+                <div class="menu-card">
+                    <img src="gazou/illustkun-00247-sushi.png" alt="サーモン">
+                    <h3>サーモン</h3>
+                    <p>二貫: ¥120</p>
+                </div>         
+                <div class="menu-card">
+                    <img src="gazou/illustkun-00253-sushi.png" alt="寿司名">
+                    <h3>いくら</h3>
+                    <p>二貫: ¥200</p>
+                </div>                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 夢野ふの
+    </footer>
+        <!-- これをbodyに追加する -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h2>合言葉</h2>
+                <input type="text" id="password" placeholder="合言葉を入力してください">
+                <button id="ascendBtn" style="display: none;">昇天する</button>
+            </div>
+        </div>
+        <div id="orbs-container"></div>
+        <div id="welcome-text" class="welcome-text">おかえりなさい</div>
+        <script src="tuika/tuika.js"></script>
+</body>
+</html>
